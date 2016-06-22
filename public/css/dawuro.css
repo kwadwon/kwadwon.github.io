@@ -29,3 +29,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   font-size:30px;
   color:white;
 }
+
+.inner {
+  padding: 0;
+}
