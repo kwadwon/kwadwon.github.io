@@ -15,5 +15,11 @@ $(document).ready(function() {
     $("#features").hide();
     $("#contact").hide();
     $("#home").show();
-  })
+  });
+
+  $("#learn_more").click(function (e) {
+    $("#home").hide();
+    $("#contact").hide();
+    $("#features").show();
+  });
 })
